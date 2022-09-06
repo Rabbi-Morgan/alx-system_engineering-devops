@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Enter file name"
+read name
+touch redi/${name}
+chmod u+x redi/${name}
+nano redi/${name}
+
