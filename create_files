@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Enter file name"
 read name
-touch redi/${name}
-chmod u+x redi/${name}
-nano redi/${name}
+touch 0x03-shell_variables_expansions/${name}
+chmod u+x 0x03-shell_variables_expansions/${name}
+nano 0x03-shell_variables_expansions/${name}
 
